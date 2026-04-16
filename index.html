@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="panel">
+        <div class="panel__top">
+          <div>
+            <p class="eyebrow">Classic Snake</p>
+            <h1>Snake</h1>
+          </div>
+          <div class="scoreboard" aria-live="polite">
+            <span>Score</span>
+            <strong id="score">0</strong>
+          </div>
+        </div>
+
+        <div class="status-row">
+          <p id="status">Use arrow keys or WASD to start moving.</p>
+          <div class="actions">
+            <button id="pause-button" type="button">Pause</button>
+            <button id="restart-button" type="button">Restart</button>
+          </div>
+        </div>
+
+        <div
+          id="board"
+          class="board"
+          role="grid"
+          aria-label="Snake game board"
+        ></div>
+
+        <div class="controls" aria-label="Touch controls">
+          <div class="controls__spacer"></div>
+          <button class="control-button" data-direction="up" type="button">Up</button>
+          <div class="controls__spacer"></div>
+          <button class="control-button" data-direction="left" type="button">Left</button>
+          <button class="control-button" data-direction="down" type="button">Down</button>
+          <button class="control-button" data-direction="right" type="button">Right</button>
+        </div>
+
+        <p class="help">
+          Press <kbd>Space</kbd> to pause or resume. Hitting a wall or your tail ends the game.
+        </p>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
