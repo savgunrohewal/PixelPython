@@ -98,6 +98,9 @@ git push origin feature-name
 
 **Savgun kaur rohewal**
 GitHub: [https://github.com/savgunrohewal]
+
+**Jaishal Patel**
+GitHub: [https://github.com/jaishal2608]
 ---
 
 ##  Support
