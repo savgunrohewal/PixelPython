@@ -94,13 +94,17 @@ git push origin feature-name
 
 ---
 
-##  Author
 
-**Savgun kaur rohewal**
-GitHub: [https://github.com/savgunrohewal]
-**Jaishal Patel**
-GitHub: [https://github.com/jaishal2608]
----
+
+
+##  Authors
+
+* **Savgun Kaur Rohewal**
+  GitHub: [@savgunrohewal](https://github.com/savgunrohewal)
+
+* **Jaishal Patel**
+  GitHub: [@jaishal2608](https://github.com/jaishal2608)
+
 
 ##  Support
 
